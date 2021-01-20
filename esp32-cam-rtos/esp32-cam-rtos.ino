@@ -37,10 +37,12 @@
 
 // Select camera model
 //#define CAMERA_MODEL_WROVER_KIT
-#define CAMERA_MODEL_ESP_EYE
+//#define CAMERA_MODEL_ESP_EYE
 //#define CAMERA_MODEL_M5STACK_PSRAM
 //#define CAMERA_MODEL_M5STACK_WIDE
 //#define CAMERA_MODEL_AI_THINKER
+
+#define CAMERA_MODEL_M5STACK_V2_PSRAM
 
 #define MAX_CLIENTS   10
 
@@ -462,9 +464,9 @@ void setup()
     */
     //    .frame_size     = FRAMESIZE_QVGA,
     //    .frame_size     = FRAMESIZE_UXGA,
-    //    .frame_size     = FRAMESIZE_SVGA,
+        .frame_size     = FRAMESIZE_SVGA,
     //    .frame_size     = FRAMESIZE_VGA,
-    .frame_size     = FRAMESIZE_UXGA,
+    //    .frame_size     = FRAMESIZE_UXGA,
     .jpeg_quality   = 16,
     .fb_count       = 2
   };
