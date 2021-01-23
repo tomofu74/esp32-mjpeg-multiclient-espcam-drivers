@@ -41,6 +41,8 @@ All captured frames are stored in PSRAM (until you run out of memory) and served
 
 In **esp32-cam.ino** sketch select your camera pin assignment. 
 
+   **This Fork is added 'CAMERA_MODEL_M5STACK_V2_PSRAM' assigns in camera_pins.h**
+
 The choices are:
 
 - CAMERA_MODEL_WROVER_KIT
@@ -52,6 +54,8 @@ The choices are:
 - CAMERA_MODEL_M5STACK_WIDE
 
 - CAMERA_MODEL_AI_THINKER
+
+- CAMERA_MODEL_M5STACK_V2_PSRAM
 
   
 
