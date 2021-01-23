@@ -37,7 +37,7 @@ All captured frames are stored in PSRAM (until you run out of memory) and served
 
    **NOTE:** please observe the `-j` flag: the sketch assumes all files are in the same folder. 
 
-
+   **This Fork is overwritten with 2021/01 downloaded esp32-cam-master.zip**
 
 In **esp32-cam.ino** sketch select your camera pin assignment. 
 
